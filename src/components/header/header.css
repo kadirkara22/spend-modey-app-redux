@@ -1,0 +1,23 @@
+.header {
+  background-color: white;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bilgates {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  -ms-border-radius: 75px;
+  -o-border-radius: 75px;
+}
+.header_title {
+  margin-top: 30px;
+  background-color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
