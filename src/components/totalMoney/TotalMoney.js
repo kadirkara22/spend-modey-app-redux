@@ -3,7 +3,7 @@ import "./totalMoney.css"
 const TotalMoney = () => {
     return (
         <div className="totalMoney">
-            $1,000,000,000,000
+            $100,000,000,000
         </div>
     )
 }
