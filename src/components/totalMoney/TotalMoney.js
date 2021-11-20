@@ -1,9 +1,11 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import "./totalMoney.css"
 const TotalMoney = () => {
+    const totalMoney = useSelector((state) => state.products.totalMoney)
     return (
         <div className="totalMoney">
-            $100,000,000,000
+            {totalMoney}
         </div>
     )
 }

@@ -47,6 +47,21 @@
 .sellbutton {
   font-weight: bold;
   background-color: #f1f2f6;
+  color: #333;
+  width: 115px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.sellRed {
+  font-weight: bold;
+  background: linear-gradient(180deg, #f53b82, #f53b57);
+  color: #fff;
   width: 115px;
   height: 50px;
   font-size: 20px;
@@ -76,6 +91,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 .buyButton {
+  font-weight: bold;
   background: linear-gradient(180deg, #2ecc71, #1abc9c);
   color: white;
   width: 115px;
@@ -83,6 +99,21 @@ input::-webkit-inner-spin-button {
   font-size: 20px;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.buyWhite {
+  background-color: #f1f2f6;
+  color: #333;
+  width: 115px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;

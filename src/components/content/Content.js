@@ -11,16 +11,27 @@ const Content = () => {
 
 
     const items = useSelector(state => state.products.items)
-    const [count, setCount] = useState(0);
+
     const buyList = useSelector(state => state.products.buyList)
+
+
 
     const dispatch = useDispatch();
     const handleClickBuy = (product) => {
+
         dispatch(buyProduct(product))
 
     }
+    const handleClickSell = (product) => {
+
+        dispatch(sellProduct(product))
+
+
+    }
+
     console.log(buyList)
-    console.log(count)
+    console.log(items)
+
 
 
     return (
@@ -37,8 +48,8 @@ const Content = () => {
                             </div>
 
                             <div className="sellorBuy">
-                                <button className="sellbutton" onClick={() => dispatch(sellProduct(item.id))}>Sell</button>
-                                <input type="text" className="inputNumber" value={count} onChange={(e) => setCount(e.target.value)}></input>
+                                <button className={item.count > 0 ? "sellRed" : "sellbutton"} onClick={() => handleClickSell(item)}>Sell</button>
+                                <input type="number" className="inputNumber" value={item.count} onChange={() => { }}></input>
                                 <button className="buyButton" onClick={() => handleClickBuy(item)}>Buy</button>
                             </div>
 
