@@ -1,4 +1,68 @@
 .receipt {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: white;
+  min-height: 100px;
+}
+.header {
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+  height: 100px;
+}
+
+.priceDetail {
+  display: grid;
+  grid-template-columns: 250px 45px 100px;
+  background: white;
+  width: 400px;
+}
+
+.productName {
+  text-align: left;
+  color: #333;
+  font-size: 24px;
+  background: white;
+}
+.productCount {
+  text-align: left;
+  color: #333;
+  font-size: 24px;
+  background: white;
+}
+.productTotalPrice {
+  color: #24c486;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  background: white;
+}
+.total {
+  color: #333;
+  font-weight: bold;
+  font-size: 30px;
+  background: white;
+}
+.totalPrice {
+  color: #24c486;
+  text-align: right;
+  font-size: 26px;
+  font-weight: bold;
+  background: white;
+}
+.priceTotalDetail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 400px;
+  border-top: 1px solid #333;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 10px;
 }

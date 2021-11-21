@@ -13,6 +13,7 @@ const Content = () => {
     const items = useSelector(state => state.products.items)
 
     const buyList = useSelector(state => state.products.buyList)
+    const totalMoney = useSelector(state => state.products.totalMoney)
 
 
 
@@ -28,11 +29,6 @@ const Content = () => {
 
 
     }
-
-    console.log(buyList)
-    console.log(items)
-
-
 
     return (
         <>
@@ -50,7 +46,7 @@ const Content = () => {
                             <div className="sellorBuy">
                                 <button className={item.count > 0 ? "sellRed" : "sellbutton"} onClick={() => handleClickSell(item)}>Sell</button>
                                 <input type="number" className="inputNumber" value={item.count} onChange={() => { }}></input>
-                                <button className="buyButton" onClick={() => handleClickBuy(item)}>Buy</button>
+                                <button className={totalMoney < item.productPrice ? "buyWhite" : "buyButton"} onClick={() => handleClickBuy(item)}>Buy</button>
                             </div>
 
                         </div>

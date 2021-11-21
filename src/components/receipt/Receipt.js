@@ -1,14 +1,41 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import "./receipt.css"
+import TotalPrice from './TotalPrice';
 const Receipt = () => {
-    return (
-        <div className="receipt">
-            <h1>Your Receipt</h1>
-            <div>Formila 1 Car</div>
-            <div>x2</div>
-            <div>$30</div>
+    const buyList = useSelector((state) => state.products.buyList);
+    const spendMoney = useSelector((state) => state.products.spendMoney);
 
-        </div>
+
+
+    return (
+        <>
+            {
+                spendMoney &&
+
+                <div className="receipt">
+                    <div className="header">Your Receipt</div>
+                    {buyList.map((item) => (
+                        <div className="priceDetail">
+                            <div className="productName">{item.productName}</div>
+                            <div className="productCount">x{item.count}</div>
+                            <div className="productTotalPrice">
+                                ${(Number(item.productPrice) * Number(item.count)) >= 1000 && (Number(item.productPrice) * Number(item.count)) < 1000000
+                                    ? (Number(item.productPrice) * Number(item.count)) + "k"
+                                    : (Number(item.productPrice) * Number(item.count)) >= 1000000 && (Number(item.productPrice) * Number(item.count)) < 1000000000
+                                        ? (Number(item.productPrice) * Number(item.count)) + "m"
+                                        : (Number(item.productPrice) * Number(item.count)) >= 1000000000 && (Number(item.productPrice) * Number(item.count)) < 1000000000000
+                                            ? (Number(item.productPrice) * Number(item.count)) + "b"
+                                            : (Number(item.productPrice) * Number(item.count))
+                                }</div>
+                        </div>
+                    ))}
+                    <TotalPrice />
+                </div>
+
+            }
+
+        </>
     )
 }
 

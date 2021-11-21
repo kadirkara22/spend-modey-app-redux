@@ -108,28 +108,28 @@
         {
             "id": "16",
             "productName": "Kitten",
-            "productPrice": "1,500",
+            "productPrice": "1500",
             "image": "https://neal.fun/spend/images/kitten.jpg",
             "count":"0"
         },
         {
             "id": "17",
             "productName": "Puppy",
-            "productPrice": "1,500",
+            "productPrice": "1500",
             "image": "https://neal.fun/spend/images/puppy.jpg",
             "count":"0"
         },
         {
             "id": "18",
             "productName": "Auto Rickshaw",
-            "productPrice": "2,300",
+            "productPrice": "2300",
             "image": "https://neal.fun/spend/images/auto-rickshaw.jpg",
             "count":"0"
         },
         {
             "id": "19",
             "productName": "Horse",
-            "productPrice": "2,500",
+            "productPrice": "2500",
             "image": "https://neal.fun/spend/images/horse.jpg",
             "count":"0"
         },
@@ -143,177 +143,178 @@
         {
             "id": "21",
             "productName": "Designer Handbag",
-            "productPrice": "5,500",
+            "productPrice": "5500",
             "image": "https://neal.fun/spend/images/designer-handbag.jpg",
             "count":"0"
         },
         {
             "id": "22",
             "productName": "Hot Tub",
-            "productPrice": "6,000",
+            "productPrice": "6000",
             "image": "https://neal.fun/spend/images/video-game.jpg",
             "count":"0"
         },
         {
             "id": "23",
             "productName": "Luxury Wine",
-            "productPrice": "7,000",
+            "productPrice": "7000",
             "image": "https://neal.fun/spend/images/luxury-wine.jpg",
             "count":"0"
         },
         {
             "id": "24",
             "productName": "Diamond Ring",
-            "productPrice": "10,000",
+            "productPrice": "10000",
             "image": "https://neal.fun/spend/images/diamond-ring.jpg",
             "count":"0"
         },
         {
             "id": "25",
             "productName": "Jet Ski",
-            "productPrice": "12,000",
+            "productPrice": "12000",
             "image": "https://neal.fun/spend/images/jet-ski.jpg",
             "count":"0"
         },
         {
             "id": "26",
             "productName": "Rolex",
-            "productPrice": "15,000",
+            "productPrice": "15000",
             "image": "https://neal.fun/spend/images/rolex.jpg",
             "count":"0"
         },
         {
             "id": "27",
             "productName": "Ford F-150",
-            "productPrice": "30,000",
+            "productPrice": "30000",
             "image": "https://neal.fun/spend/images/ford-f-150.jpg",
             "count":"0"
         },
         {
             "id": "28",
             "productName": "Tesla",
-            "productPrice": "75,000",
+            "productPrice": "75000",
             "image": "https://neal.fun/spend/images/tesla.jpg",
             "count":"0"
         },
         {
             "id": "29",
             "productName": "Monster Truck",
-            "productPrice": "150,000",
+            "productPrice": "150000",
             "image": "https://neal.fun/spend/images/monster-truck.jpg",
             "count":"0"
         },
         {
             "id": "30",
             "productName": "Ferrari",
-            "productPrice": "250,000",
+            "productPrice": "250000",
             "image": "https://neal.fun/spend/images/ferrari.jpg",
             "count":"0"
         },
         {
             "id": "31",
             "productName": "Single Family Home",
-            "productPrice": "300,000",
+            "productPrice": "300000",
             "image": "https://neal.fun/spend/images/single-family-home.jpg",
             "count":"0"
         },
         {
             "id": "32",
             "productName": "Gold Bar",
-            "productPrice": "700,000",
+            "productPrice": "700000",
             "image": "https://neal.fun/spend/images/gold-bar.jpg",
             "count":"0"
         },
         {
             "id": "33",
             "productName": "McDonalds Franchise",
-            "productPrice": "1,500,000",
+            "productPrice": "1500000",
             "image": "https://neal.fun/spend/images/mcdonalds-franchise.jpg",
             "count":"0"
         },
         {
             "id": "34",
             "productName": "Superbowl Ad",
-            "productPrice": "5,250,000",
+            "productPrice": "5250000",
             "image": "https://neal.fun/spend/images/superbowl-ad.jpg",
             "count":"0"
         },
         {
             "id": "35",
             "productName": "Yacht",
-            "productPrice": "7,500,000",
+            "productPrice": "7500000",
             "image": "https://neal.fun/spend/images/yacht.jpg",
             "count":"0"
         },
         {
             "id": "36",
             "productName": "M1 Abrams",
-            "productPrice": "8,000,000",
+            "productPrice": "8000000",
             "image": "https://neal.fun/spend/images/m1-abrams.jpg",
             "count":"0"
         },
         {
             "id": "37",
             "productName": "Formula 1 Car",
-            "productPrice": "15,000,000",
+            "productPrice": "15000000",
             "image": "https://neal.fun/spend/images/formula-1-car.jpg",
             "count":"0"
         },
         {
             "id": "38",
             "productName": "Apache Helicopter",
-            "productPrice": "31,000,000",
+            "productPrice": "31000000",
             "image": "https://neal.fun/spend/images/apache-helicopter.jpg",
             "count":"0"
         },
         {
             "id": "39",
             "productName": "Mansion",
-            "productPrice": "45,000,000",
+            "productPrice": "45000000",
             "image": "https://neal.fun/spend/images/mansion.jpg",
             "count":"0"
         },
         {
             "id": "40",
             "productName": "Make a Movie",
-            "productPrice": "100,000,000",
+            "productPrice": "100000000",
             "image": "https://neal.fun/spend/images/make-a-movie.jpg",
             "count":"0"
         },
         {
             "id": "41",
             "productName": "Boeing 747",
-            "productPrice": "148,000,000",
+            "productPrice": "148000000",
             "image": "https://neal.fun/spend/images/boeing-747.jpg",
             "count":"0"
         },
         {
             "id": "42",
             "productName": "Mona Lisa",
-            "productPrice": "780,000,000",
+            "productPrice": "780000000",
             "image": "https://neal.fun/spend/images/mona-lisa.jpg",
             "count":"0"
         },
         {
             "id": "43",
             "productName": "Skyscraper",
-            "productPrice": "850,000,000",
+            "productPrice": "850000000",
             "image": "https://neal.fun/spend/images/skyscraper.jpg",
             "count":"0"
         },
         {
             "id": "44",
             "productName": "Cruise Ship",
-            "productPrice": "930,000,000",
+            "productPrice": "930000000",
             "image": "https://neal.fun/spend/images/cruise-ship.jpg",
             "count":"0"
         },
         {
             "id": "45",
             "productName": "NBA Team",
-            "productPrice": "2,120,000,000",
+            "productPrice": "2120000000",
             "image": "https://neal.fun/spend/images/nba-team.jpg",
             "count":"0"
+          
         }
     ]
 }
